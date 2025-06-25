@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your PCB Design Service</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #0a9396;
+      border-bottom: 2px solid #0a9396;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .contact-form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      max-width: 400px;
+      margin: auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      box-sizing: border-box;
+      font-family: inherit;
+    }
+    button {
+      background-color: #0a9396;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    button:hover {
+      background-color: #007f7f;
+    }
+    footer {
+      text-align: center;
+      color: #666;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your PCB Design Service</h1>
+    <p>Fast, reliable PCB design solutions tailored for startups and innovators.</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m Kaden Pedersoli, an Electrical and Computer Engineering student at Cornell with hands-on experience in PCB design,
+        embedded systems, and prototyping. I help startups and innovators turn their hardware ideas into manufacturable designs quickly and efficiently.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Custom PCB schematic capture and layout</li>
+        <li>Multi-layer PCB design (flexible, rigid, HDI)</li>
+        <li>Signal integrity and design for manufacturability (DFM) checks</li>
+        <li>Firmware integration support</li>
+        <li>Prototype to production support</li>
+      </ul>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Here are a few example projects I've worked on:</p>
+      <ul>
+        <li>Wearable health monitor prototype</li>
+        <li>Low-power sensor node for IoT applications</li>
+        <li>Custom drone control board</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form class="contact-form" action="https://formspree.io/f/xpwroybj" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell me about your project" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
